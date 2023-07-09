@@ -14,6 +14,6 @@ And the game will start.
 
 Your task is to manipulate the 4 numbers on the stack to yield 10 using the 4 basic mathematical operations.
 
-The only allowed opcodes are 01 (ADD), 02 (MUL), 03 (SUB) and 04 (DIV). Enter them one after the otehr unseparated.
+The only allowed opcodes are 01 (ADD), 02 (MUL), 03 (SUB) and 04 (DIV). Enter them one after the other unseparated.
 
 You can use [`evm.codes`](https://www.evm.codes/)'s reference and playground to work through this.
