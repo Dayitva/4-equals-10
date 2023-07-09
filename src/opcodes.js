@@ -144,6 +144,7 @@ module.exports.getOpcode = function getOpcode(opcodeHex) {
     case "FD": return ["REVERT"];
     case "FE": return ["INVALID"];
     case "FF": return ["SELFDESTRUCT"];
+    case "XX": return ["INSERT"];
   }
 
   throw new Error("Unrecognized opcode", opcodeHex);
